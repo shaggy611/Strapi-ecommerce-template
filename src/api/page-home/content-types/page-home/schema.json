@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "page_homes",
+  "info": {
+    "singularName": "page-home",
+    "pluralName": "page-homes",
+    "displayName": "pageHome"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "welcome_banner": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::welcome-banner.welcome-banner"
+    }
+  }
+}
